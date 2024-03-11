@@ -1,0 +1,17 @@
+{
+  "name": "ryouiki",
+  "type": "module",
+  "workspaces": ["packages/*"],
+  "scripts": {
+    "lint": "biome check .",
+    "format": "biome check --apply .",
+    "format:force": "biome check --apply-unsafe ."
+  },
+  "devDependencies": {
+    "@biomejs/biome": "1.6.0",
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  }
+}
