@@ -1,6 +1,7 @@
 {
   "compilerOptions": {
     "strict": true,
+    "noUncheckedIndexedAccess": true,
     "jsx": "react-jsx",
     "jsxImportSource": "hono/jsx",
     "resolveJsonModule": true,
